@@ -83,4 +83,4 @@ But the problem is that the Fairness and Performance Score metrics are not diffe
 The only approach that can be applied in our case is **free gradient optimization**. The goal would be to define a custom metric combined with the use of optimization tools such as ``optuna`` to find the best combination of model hyperparameters.
 
 ### Post-processing level
-Adjusting the prediction threshold
+Adjusting the prediction threshold such that the model is as fair as possible good at predicting female and male individuals
