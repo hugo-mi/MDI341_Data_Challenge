@@ -47,9 +47,6 @@ $$ BFNR := \frac{\max(FNR(male),FNR(female))}{\mathrm{GeomMean}(FNR(male),FNR(fe
 
 
 as close to 1 as possible, which corresponds to its minimum value. </br>
-Here, $\mathrm{GeomMean}$ stands for the geometric mean, which is equal to $\sqrt{xy}$ for two nonnegative real numbers $x$ and $y$.
-
-For a given input $\mathbf{x}$ made of two templates, the gender attribute of the first template is $\mathbf{X}[8]$ and the one of the second template is $\mathbf{X}[56]$. The value 1 is for "male" and 0 for "female".
 
 ## Overall Strategy
 
